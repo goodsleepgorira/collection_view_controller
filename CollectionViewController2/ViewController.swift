@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //タイトルと画像を設定する。
-        testNavBar.topItem!.title = testImage.description
+        testNavBar.topItem!.title = testTitle
         testImageView.image = testImage
         
     }
